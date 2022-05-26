@@ -1,0 +1,36 @@
+body {
+    max-width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    width: 30em;
+    height: 30em;
+}
+
+@media only screen and (max-width: 768px) {
+  .imageContainer {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+.imageContainer img {
+    width: 100%;
+    }
